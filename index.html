@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="index.css" />
+    <script src="script.js" type="text/javascript"></script>
+    <title>Test</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Demo site</h1>
+    </div>
+
+    <div class="topnav">
+      <a href="#">Home</a>
+      <a href="#">Category</a>
+      <a href="#">Recent</a>
+      <a href="#" style="float: right">About me</a>
+    </div>
+
+    <div class="row">
+      <div class="leftcolumn">
+        <div class="card">
+          <h2>Testing</h2>
+          <h5>Work description</h5>
+          <div class="fakeimg" style="height: 200px">Image</div>
+          <p>Some text..</p>
+          <p>More details</p>
+        </div>
+        <div class="card">
+          <h2>Recent work</h2>
+          <h5>Testing simple Addition function</h5>
+          <form
+            action="javascript: Addition(fnum.value, snum.value)"
+            class="fakeimg"
+            style="height: 200px"
+          >
+            <h5>Enter two numbers</h5>
+            <input
+              type="number"
+              name="fnum"
+              id="fnum"
+              placeholder="First number"
+              class="ipbox"
+            /><br /><br />
+            <input
+              type="number"
+              name="snum"
+              id="snum"
+              placeholder="Second number"
+              class="ipbox"
+            />
+            <p><input type="submit" value="Add" /></p>
+          </form>
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="card">
+          <h3>Technologies used:</h3>
+          <ul>
+            <li>Html</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>About Me</h3>
+          <img
+            style="height: 100px; object-fit: contain; width: auto"
+            src="MyPic.jpg"
+          />
+          <p>Hello! My name is Tanmay Sahu. I am a web developer.</p>
+        </div>
+        <div class="card">
+          <h3>Popular Post</h3>
+          <div class="fakeimg"><p>To be added</p></div>
+          <div class="fakeimg"><p>To be added</p></div>
+          <div class="fakeimg"><p>To be added</p></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h5>Email : tanmaysahu839926@gmail.com</h5>
+      <h5>Github : github.com/TanmaySahu</h5>
+    </div>
+  </body>
+</html>

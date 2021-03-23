@@ -20,11 +20,24 @@
     <div class="row">
       <div class="leftcolumn">
         <div class="card">
-          <h2>Testing</h2>
-          <h5>Work description</h5>
-          <div class="fakeimg" style="height: 200px">Image</div>
-          <p>Some text..</p>
-          <p>More details</p>
+          <h2>Vowel Remover</h2>
+          <h5>Enter a string to get vowel free string</h5>
+          <form
+            class="fakeimg"
+            style="height: 200px"
+            action="javascript: vowelRemover()"
+          >
+            <input
+              type="text"
+              placeholder="Enter string here"
+              id="ipstr"
+              class="ipbox"
+            />
+            <input type="submit" value="Remove" />
+            <div class="resDiv">
+              <p id="vrRes"></p>
+            </div>
+          </form>
         </div>
 
         <div class="card">

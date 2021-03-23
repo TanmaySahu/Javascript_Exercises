@@ -26,14 +26,11 @@
           <p>Some text..</p>
           <p>More details</p>
         </div>
+
         <div class="card">
           <h2>Recent work</h2>
           <h5>Testing simple Addition function</h5>
-          <form
-            action="javascript: Addition(fnum.value, snum.value)"
-            class="fakeimg"
-            style="height: 200px"
-          >
+          <form class="fakeimg" style="height: 200px">
             <h5>Enter two numbers</h5>
             <input
               type="number"
@@ -49,7 +46,7 @@
               placeholder="Second number"
               class="ipbox"
             />
-            <p><input type="submit" value="Add" /></p>
+            <p><input type="submit" value="Add" onclick="Addition()" /></p>
           </form>
         </div>
       </div>

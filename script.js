@@ -1,6 +1,6 @@
 function vowelRemover(){
     var str = document.getElementById("ipstr").value;
-    document.getElementById("vrRes").innerHTML = str.replace(/[aeiouAEIOU]/g, '');
+    document.getElementById("vrRes").innerHTML = str.replace(/[aeiou]/gi, '');
 }
 
 function Addition(){
